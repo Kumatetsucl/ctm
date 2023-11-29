@@ -1,5 +1,5 @@
 ion-content {
-    --background: rgba(var(--cdc, 255, 255, 255), 1);
+    --background: rgba(255, 255, 255, 0.5) url("../../../assets/core/img/mapa.jpg") 0/100% 100%;
   
     .sign_in_page_wrap {
       min-height: 100vh;
@@ -9,6 +9,7 @@ ion-content {
       align-items: center;
   
       .login_content {
+        color: rgb(0, 0, 107);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -69,7 +70,7 @@ ion-content {
       }
     }
   }
-  
+
   ion-footer {
     border-top: 1px solid #efefef !important;
     ion-toolbar {
@@ -80,3 +81,15 @@ ion-content {
       }
     }
   }
+
+  
+.login_content{
+  text-align: center;
+  background: rgba(66, 66, 66, 0.8); // Fondo blanco medio transparente
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  align-items: justify;
+}

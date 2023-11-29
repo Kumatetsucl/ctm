@@ -10,11 +10,12 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
 // importacion para geolocalizacion
 import {CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 
+
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
-    FormsModule, // Asegúrate de agregar FormsModule aquí
+    FormsModule,
     ExploreContainerComponentModule,
     Tab1PageRoutingModule
   ],
